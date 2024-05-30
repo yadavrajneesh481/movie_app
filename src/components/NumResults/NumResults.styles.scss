@@ -1,0 +1,10 @@
+@import "../../scss/mixins.scss";
+
+.num-results {
+  justify-self: end;
+  font-size: 1.8rem;
+
+  @include respond(phone) {
+    justify-self: center;
+  }
+}
